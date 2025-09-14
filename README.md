@@ -24,9 +24,3 @@
 
 ## 🚀Future Ambitions
 
- 1. Transition to complete multilingual Whisper model for native Hindi/Hinglish transcription.
- 2. Train an LLM from scratch on Indian YouTube title/descriptions that go viral to optimize cultural relevance.
- 3. Enable authors to upload pre-existing videos and compare generated versus original metadata.
- 4. Implement login/signup to store history, previous uploads, and create content in bulk.
-
-

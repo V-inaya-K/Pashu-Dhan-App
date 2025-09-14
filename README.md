@@ -7,12 +7,12 @@
 
 ## 🧲Tech Stack
 
- - Flutter – handles backend web routing and file uploading.
- - TensorFlow Lite – For quick and accurate multilingual transcription of uploaded audio/video.
- - YOLO v8 – For quick and accurate multilingual transcription of uploaded audio/video.
- - ImagePicker – Manages prompt chaining and LLM integration for formatted output.
- - Supabase – Extremely fast LLM for title, description, and hashtag creation.
- - AWS S3 – Divides long transcripts into bite-sized chunks for better LLM comprehension.
+ - Flutter – Cross-platform frontend for mobile and web; handles camera input, file uploading, and user interaction.
+ - TensorFlow Lite – Runs the trained YOLOv8 model on-device for fast, offline cattle & buffalo breed recognition.
+ - YOLO v8 – Model used for image analysis and breed classification.
+ - ImagePicker – Captures photos or selects images from the device gallery.
+ - Supabase – Backend database and authentication; Stores cattle logs and user data.
+ - AWS S3 – Stores uploaded cattle images into S3 bucket and images accessed from there.
 
 ## 🌀Workflow
  1. User Logins with provided credentials, to maintaing data security and mishandling.
@@ -20,13 +20,7 @@
  3. tflite model analyzes image and give result.
  4. Logs are created for every cattle that is visible on user activity tab.
 
-## 🌊Run on your System
-
- **Step1:** git clone https://github.com/V-inaya-K/Hook.ai.git<br />
- **Step2:** cd yt caption<br />
- **Step3:** create .env file with your grop Api key(GROQ_API_KEY=YOUR_KEY)<br />
- **Step4:** pip install -r requirements.txt<br />
- **Step5:** python app.py<br />
+## 🌊APK Link
 
 ## 🚀Future Ambitions
 
